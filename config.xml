@@ -9,7 +9,7 @@
         <!-- versionCode is optional and Android only -->
 
         <preference name="phonegap-version" value="3.7.0" />
-
+        <icon src="img/icon.png"></icon>
         <name>AcelerometroBrujula</name>
 
         <description>
