@@ -16,12 +16,9 @@ var ac = {
     },
     detener: function(){
         if(ac.watchID){
-            alert('1');
-            navigator.acceletometer.clearWatch(ac.watchID);
+            navigator.accelerometer.clearWatch(ac.watchID);
             ac.watchID = null;
             $('#acelerometro h2').html('Detenido');
         }
-        else
-            alert('2');
     }
 };
