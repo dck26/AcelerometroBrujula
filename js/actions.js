@@ -20,13 +20,12 @@ var fn = {
     brTap: function(){
         switch($(this).index()){
             case 0:
-                br.iniciar();
+                br.iniciar();//Iniciar
                 break;
             case 1:
-                br.detener();
+                br.detener();//Detener
                 break;
         }
     }
 };
 $(fn.ready);
-
