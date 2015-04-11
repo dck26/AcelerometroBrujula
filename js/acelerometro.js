@@ -15,10 +15,13 @@ var ac = {
             ac.watchID = navigator.accelerometer.watchAcceleration(ac.satifactorio,ac.error,ac.opc);
     },
     detener: function(){
-        if(ac.watchID != null){
+        if(ac.watchID){
+            alert('1');
             navigator.acceletometer.clearWatch(ac.watchID);
             ac.watchID = null;
             $('#acelerometro h2').html('Detenido');
         }
+        else
+            alert('2');
     }
 };
